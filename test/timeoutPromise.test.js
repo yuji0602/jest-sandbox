@@ -10,12 +10,12 @@ const timeout3sec = timeout(3000);
 describe('Promise test', () => {
   let originalTimeout;
 
-  beforeEach(function() {
+  beforeAll(function() {
     originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
     jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
   });
 
-  afterEach(function() {
+  afterAll(function() {
     jasmine.DEFAULT_TIMEOUT_INTERVAL = originalTimeout;
   });
 
