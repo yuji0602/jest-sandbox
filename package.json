@@ -9,5 +9,8 @@
     "test": "jest"
   },
   "author": "yuji0602",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0"
+  }
 }
